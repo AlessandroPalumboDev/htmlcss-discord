@@ -84,7 +84,7 @@ footer{
 
 .row {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 40px 0;
 }
@@ -114,8 +114,8 @@ footer{
     width: 100%;
 }
 
-.col75{
-    width: 75%;
+.col70{
+    width: 70%;
 s}
 
 .col75big{
@@ -127,8 +127,8 @@ s}
     width: 50%;
 }
 
-.col35{
-    width: 35%;
+.col30{
+    width: 30%;
 }
 
 .col33{
@@ -223,10 +223,13 @@ s}
     background-size: cover;
 }
 
-.bgitem-1{
+.bgwave{
+    background-image: url(../img/wave.svg);
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
 
 .text-al-center{
     text-align: center;
