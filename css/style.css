@@ -1,0 +1,184 @@
+* {
+    padding: 0;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: lightskyblue;
+    padding: 20px 0px;
+}
+
+#link{
+    text-align: center;
+}
+
+#login{
+    text-align: right;
+    padding-right: 10px;
+}
+
+#logo{
+    padding-left: 10px;
+}
+
+footer{
+    background-color: black;
+}
+
+
+
+/* CLASSI DI LAYOUT */
+.container {
+    max-width: 1200px;
+}
+
+.containersm{
+    max-width: 990px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    line-height: 2;
+}
+
+.particolare{
+    width: 100%;
+}
+
+.foot{
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 1px;
+}
+
+.top-footer {
+    border-bottom: 1px solid #fff;
+}
+
+.bottom-footer {
+    background-color: black;
+    padding-top: 15px;
+}
+
+.col100{
+    width: 100%;
+    height: 300px;
+}
+
+.col75{
+    width: 75%;
+    height: 300px;
+}
+
+.col75big{
+    width: 100%;
+    height: 700px;
+}
+
+.col50 {
+    width: 50%;
+}
+
+.col35{
+    width: 35%;
+}
+
+.col33{
+    width: calc(100% / 6 * 2);
+    height: 300px;
+}
+
+.col16{
+    width: calc(100% / 6);
+}
+
+.col25 {
+    width: 25%;
+}
+
+
+
+
+
+
+
+
+/* CLASSI DI UTILITY */
+.bodot{
+    border: 1px dotted black;
+}
+
+.bodotw{
+    border: 1px dotted white;
+}
+
+.bgred {
+    background-color: red;
+}
+
+.bgorange {
+    background-color: rgb(224, 152, 18);
+}
+
+
+.bgblue {
+    background-color: blue;
+}
+
+.bggold {
+    background-color: gold;
+}
+
+.bgsilver {
+    background-color: silver;
+}
+
+.bglightgrey {
+    background-color: lightgray;
+}
+
+.bgcoral {
+    background-color: coral;
+}
+
+.bgyellow {
+    background-color: rgb(255, 213, 0);
+}
+
+.bgpink{
+    background-color: pink;
+}
+
+.bgviolet{
+    background-color: rgb(228, 106, 212);
+}
+
+.bglightblue{
+    background-color: rgb(74, 74, 238);
+}
+
+.bggreen{
+    background-color: green;
+}
+
+.bgblack{
+    background-color:black
+}
+
+.bglightgreen{
+    background-color: lightgreen;
+}
+
+.mg30{
+    margin: 30px 0;
+}
+
+.mg10{
+    margin: 10px 0;
+}
+.mg1020{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
