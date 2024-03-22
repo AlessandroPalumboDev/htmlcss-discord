@@ -5,7 +5,7 @@
 }
 
 header {
-    background-color: lightskyblue;
+    background-color: #3161e0;
     padding: 20px 0px;
 }
 
@@ -13,13 +13,25 @@ header {
     text-align: center;
 }
 
-#login{
-    text-align: right;
-    padding-right: 10px;
+a{
+    color: #fff;
+    text-decoration: none;
 }
 
-#logo{
-    padding-left: 10px;
+.col50 a{
+    margin: 15px;
+}
+
+#login{
+    display: flex;
+    /* align-items: right; */
+}
+
+.bt{
+    background-color: #fff;
+    border: none;
+    border-radius: 40px;
+    padding: 10px;
 }
 
 footer{
@@ -40,7 +52,7 @@ footer{
 .row {
     display: flex;
     justify-content: center;
-    line-height: 2;
+    align-items: center;
 }
 
 .particolare{
@@ -171,6 +183,16 @@ footer{
     background-color: lightgreen;
 }
 
+.bgjumbo{
+    background-image: url(../img/jumbo.png);
+    
+}
+
+
+
+
+
+
 .mg30{
     margin: 30px 0;
 }
@@ -182,3 +204,8 @@ footer{
     margin-top: 10px;
     margin-bottom: 20px;
 }
+
+
+/* AGGIUNTE */
+
+
