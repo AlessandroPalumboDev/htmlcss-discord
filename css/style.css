@@ -4,9 +4,13 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: "jost", sans-serif;
+}
+
 header {
-    background-color: #3161e0;
-    padding: 20px 0px;
+    background-color: #235af3;
+    padding-bottom: 20px;
 }
 
 h2{
@@ -27,9 +31,6 @@ p{
     font-size: 20px;
 }
 
-body{
-    font-family: "Jost", sans-serif;
-}
 
 #link{
     text-align: center;
