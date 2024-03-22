@@ -5,7 +5,7 @@
 }
 
 header {
-    background-color: hsl(0, 0%, 0%);
+    background-color: #3161e0;
     padding: 20px 0px;
 }
 
@@ -72,7 +72,7 @@ body{
 }
 
 .btviolet{
-    background-color: violet;
+    background-color: #3161e0;
     border: none;
     text-decoration: none;
     border-radius: 30px;
@@ -129,6 +129,11 @@ footer{
     padding: 40px 0;
 }
 
+.rowfooter {
+    display: flex;
+    padding: 40px 0;
+}
+
 .particolare{
     width: 100%;
 }
@@ -171,7 +176,6 @@ footer{
 
 .col33{
     width: calc(100% / 6 * 2);
-    height: 300px;
 }
 
 .col16{
@@ -180,6 +184,10 @@ footer{
 
 .col25 {
     width: 25%;
+}
+
+.social{
+    padding: 5px 0;
 }
 
 
@@ -236,7 +244,7 @@ footer{
 }
 
 .bgviolet{
-    background-color: rgb(228, 106, 212);
+    background-color: violet;
 }
 
 .bglightblue{
@@ -278,6 +286,28 @@ footer{
 
 .txt-white{
     color: #fff;
+}
+
+.txt-discord{
+    color: #3161e0;
+}
+
+ul{
+    color: white;
+    list-style: none;
+    font-size: 20px;
+}
+
+ul a{
+    text-decoration: none;
+}
+
+li{
+    line-height: 2;
+}
+
+.color-white{
+    color: white;
 }
 
 
