@@ -203,6 +203,7 @@ footer{
 .bgstars{
     background-image: url(../img/stars.svg);
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .text-al-center{
