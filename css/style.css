@@ -13,6 +13,11 @@ header {
     padding-bottom: 20px;
 }
 
+h1{
+    font-size: 60px;
+    padding-bottom: 30px;
+}
+
 h2{
     font-size: 40px;
     line-height: 1.2;
