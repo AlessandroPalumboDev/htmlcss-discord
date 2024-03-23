@@ -9,7 +9,7 @@ body{
 }
 
 header {
-    background-color: #235af3;
+    background-color: #255EE9;
     padding-bottom: 20px;
 }
 
@@ -30,7 +30,6 @@ h3{
 p{
     font-size: 20px;
 }
-
 
 #link{
     text-align: center;
@@ -183,9 +182,22 @@ footer{
     padding: 5px 0;
 }
 
+.onde-top{
+    background-image: url(../img/wave.svg);
+    filter: brightness(0) saturate(100%) invert(99%) sepia(2%) saturate(1141%) hue-rotate(194deg) brightness(117%) contrast(81%);
+    height: 100px;
+}
+
+.onde-bottom{
+    background-image: url(../img/wave.svg);
+    transform: rotate(180deg);
+    filter: brightness(0) saturate(100%) invert(99%) sepia(2%) saturate(1141%) hue-rotate(194deg) brightness(117%) contrast(81%);
+    height: 100px;
+}
+
 /* CLASSI DI UTILITY */
 .bgsilver {
-    background-color: silver;
+    background-color: #E7E7E7;
 }
 
 .bgjumbo{
