@@ -181,7 +181,7 @@ footer{
 
 /* BACKGROUNDS */
 .bgsilver {
-    background-color: #E7E7E7;
+    background-color: #E5E5E5;
 }
 
 .bgjumbo{
@@ -204,7 +204,7 @@ footer{
 
 .onde{
     background-image: url(../img/wave.svg);
-    filter: brightness(0) saturate(100%) invert(99%) sepia(2%) saturate(1141%) hue-rotate(194deg) brightness(117%) contrast(81%);
+    opacity: 0.1;    
     height: 100px;
 }
 
