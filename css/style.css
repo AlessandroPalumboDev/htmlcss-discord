@@ -225,10 +225,6 @@ footer{
     justify-content: space-between;
 }
 
-.j-c-space-right{
-    justify-content: right;
-}
-
 .a-items-center{
     align-items: center;
 }
