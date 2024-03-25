@@ -225,6 +225,10 @@ footer{
     justify-content: space-between;
 }
 
+.j-c-space-right{
+    justify-content: right;
+}
+
 .a-items-center{
     align-items: center;
 }
@@ -252,6 +256,10 @@ footer{
 
 .mg05{
     margin: 0 5px;
+}
+
+.mg-right-0{
+    margin-right: 0;
 }
 
 
